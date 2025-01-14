@@ -6,8 +6,6 @@ import random
 import requests
 import tweepy
 
-from log import log
-from webp_to_gif import convert_all_webp_to_gif
 
 
 def get_assets(path: str) -> list[str]:
